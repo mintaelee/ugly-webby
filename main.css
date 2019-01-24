@@ -1,48 +1,86 @@
-h1 {
-    color: #111;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
-    font-weight: bold;
-    letter-spacing: -1px;
-    line-height: 1;
-    text-align: center;
+body{
+    background-color: dimgrey
 }
 
+h1 {
+    color: peachpuff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bolder;
+    letter-spacing: -50px;
+    line-height: 1;
+    text-align: right;
+    background-color: chartreuse;
+    border: 10px dotted red;
+}
+
+div {
+    background-color: gold
+}
 p {
-    color: #685206;
+    color: whitesmoke;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 12px;
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
+    background-color: deeppink
+}
+em {
+    font-weight: bold;
+    font-size: 5px;
 }
 
+cite {
+    font-weight: bolder;
+    color: blue;
+    letter-spacing: 10px;
+}
+strong{
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: -10px;
+    color: red;
+}
+
+code {
+    font-size: 3em;
+    font-weight: bolder;
+}
 textarea {
     margin: 20px;
     width: 300px;
     height: 150px;
+    background-color: chocolate
 }
 
 ul, ol {
     margin: 20px;
     padding: 0;
+    background-color: white;
+    color: deeppink;
+    list-style: none;
 }
 
-li {
+li ::before{
     font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
+    border: dotted;
+    margin: 5px;
+    content: "\2022";
+    color: blue;
 }
    
 li:last-child {
-    border: none;
+    border: solid;
 }
 
 form {
     height:110px;
     width:190px;
     margin:auto;
-    border:1px #CCC solid;
+    border:5px #CCC solid;
     padding:10px;
 }
     
